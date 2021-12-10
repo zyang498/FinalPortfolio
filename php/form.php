@@ -1,2 +1,9 @@
-You have posted <?php echo $_POST["siteSearch1"]; ?><br>
-Thank you for your message.
+<html>
+<body>
+
+Hi, your email address is <?php echo $_GET["email"]; ?><br>
+You have left a message: <?php echo $_GET["message"]; ?><br>
+Thank you
+
+</body>
+</html>
